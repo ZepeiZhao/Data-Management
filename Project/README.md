@@ -31,6 +31,6 @@ The goal of this project is to import data from MySQL to Firebase and develop a 
 ### A. Data Storage
 ![image](https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-14%20at%206.18.20%20PM.png)
 ### B. Inverted Index
-![image]()
+![image](https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-14%20at%206.22.35%20PM.png)
 
 
