@@ -16,3 +16,11 @@ The course may be divided into three parts.
 (2) Big data analytics: NoSQL, key-value and document stores, cloud data storage, distributed file system, and MapReduce. 
 
 (3) Advanced topics in data management (if time permits): data warehousing, data cleaning, and data integration. The course will also provide students with hand-on experiences on RDBMS, e.g., MySQL, NoSQL & cloud databases such as Google Firebase, Amazon DynamoDB, MongoDB, and big data solution stacks, e.g., Apache Hadoop and Spark.
+
+## Homework
+### [HW1](https://github.com/ZepeiZhao/Data-Management/Homework/hw1): Firebase and JSON
+  PYTHOH, JSON, FIREBASE
+### [HW2](https://github.com/ZepeiZhao/Data-Management/Homework/hw2): Exploring HDFS Metadata Using XML & XPath
+  PYTHON, XML, XPATH, HDFS
+### [HW3](https://github.com/ZepeiZhao/Data-Management/Homework/hw3): SQL
+
