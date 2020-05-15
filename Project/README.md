@@ -30,7 +30,9 @@ The goal of this project is to import data from MySQL to Firebase and develop a 
 
 ### A. Data Storage
 <img src = "https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-14%20at%206.18.20%20PM.png" width = "375">
+
 ### B. Inverted Index
+
 <img src = "https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-14%20at%206.22.35%20PM.png" width = "375">
 
 
