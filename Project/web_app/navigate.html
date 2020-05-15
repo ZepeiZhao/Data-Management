@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    th{
+        color:#fff;
+            }
+</style>
+
+</head>
+<body >
+<table class="table table-striped">
+    <tbody id="city">
+    </tbody>
+</table>
+<table class="table table-striped">
+    <tbody id="country">
+    </tbody>
+</table>
+<table class="table table-striped">
+    <tbody id="countrylanguage">
+    </tbody>
+</table>
+<script>
+
+	var myArray = {{data|safe}};
+
+    createTable(myArray)
+    buildTable(myArray)
+
+   function createTable(data) {
+       var all= new Array();
+      for(var i=0;i<data.length;i++) {
+          var columns='';
+            var tab = data[i].table;
+            var tableData='';
+          if (tab == 'city') {
+              for (var key in data[i]) {
+                  columns += "<td>" + key + "</td>";
+              }
+              tableData="<tr class='bg-info'>"+columns+'</tr>';
+              all['city']=tableData;
+
+          }
+          if (tab == 'country') {
+              for (var key in data[i]) {
+                  columns += "<td>" + key + "</td>"
+              }
+              tableData="<tr class='bg-info'>"+columns+'</tr>';
+              all['country']=tableData;
+          }
+          if (tab == 'countrylanguage') {
+              for (var key in data[i]) {
+                  columns += "<td>" + key + "</td>"
+              }
+              tableData = "<tr class='bg-info'>" + columns + '</tr>';
+              all['countrylanguage'] = tableData;
+
+          }
+      }
+      for (i in all){
+          if (i=='city'){
+              var table = document.getElementById('city');
+              table.innerHTML += all[i];
+          }
+          if(i=='country'){
+              var table = document.getElementById('country');
+              table.innerHTML += all[i];
+          }
+          if(i=='countrylanguage'){
+              var table = document.getElementById('countrylanguage');
+              table.innerHTML += all[i];
+          }
+
+      }
+        }
+	function buildTable(data){
+		for (var i = 0; i < data.length; i++){
+            var table = document.getElementById(data[i]['table'])
+
+			var row = ''
+            for (var key in data[i]) {
+                if (data[i][key]== null){
+                                    row+='<td>'+'null'+'</td>'
+                }
+                if(key=='Code'||key=='CountryCode'){
+                    // var url="http://127.0.0.1:8000/selectdata/?name=%s"%m
+                    // var left='<a herf="%s">'
+                    //  // noinspection JSAnnotator
+                    var m=data[i][key]
+                    var n=data[i]['table']
+                    row+='<td>'+`<a href="http://127.0.0.1:8000/selectdata/?name=${m}&table=${n}">${data[i][key]}</a>`+'</td>'
+
+
+                }else{
+                    row+='<td>'+data[i][key]+'</td>'
+
+                }
+
+
+
+
+            }
+        table.innerHTML += '<tr>'+row+'<tr>'
+		}
+	}
+</script>
+
+
+<form>
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
