@@ -7,7 +7,7 @@ import collections
 #Enter file name and keyword in command line
 #Load index from firebase
 
-url = 'https://inf551-a33ef.firebaseio.com/index.json'
+url = 'https://inf551-#####.firebaseio.com/index.json'
 response = requests.get(url)
 allDict = response.json()
 keyword = sys.argv[1:]
@@ -60,6 +60,7 @@ counts = collections.Counter(temp_list2)
 list2 = sorted(temp_list2, key = lambda x: -counts[x])
 counts = collections.Counter(temp_list3)
 list3 = sorted(temp_list3, key = lambda x: -counts[x])
+
 #print(temp_list1)
 dict1['city'] = list1
 dict2['country'] = list2
