@@ -29,7 +29,7 @@ The goal of this project is to import data from MySQL to Firebase and develop a 
 ## Data Structure in Firebase
 
 ### Data Storage
-
+![image](Screen Shot 2020-05-14 at 6.18.20 PM.png)
 ### Inverted Index
 
 
