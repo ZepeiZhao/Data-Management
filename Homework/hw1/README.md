@@ -12,8 +12,15 @@ Task:
     
     Sort results if inputs more than one keyword
  
- Challenge:
+Challenge:
  
-   a. Data cleaning
+    a. Data cleaning
     
-   b. Flexible use of python dictionary
+    b. Flexible use of python dictionary
+
+Submission:
+
+    a. python3 load.py country.csv city.csv countrylanguage.csv
+  
+    b. python3 search.py north america
+
