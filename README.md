@@ -34,3 +34,6 @@ The course may be divided into three parts.
 ### LAB2: HDFS
 ### LAB3: MongoDB
 
+## Project: Keyword-Driven Exploration of Relational Data using Firebase
+### Tags: Django, python, html, css, javascript
+The goal of this project is to import data from MySQL to Firebase and develop a keyword-driven interface to explore the data via their foreign-key relationships.
