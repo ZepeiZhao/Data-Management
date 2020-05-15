@@ -3,6 +3,7 @@
 ## Task
 
 Export the metadata stored in the specified fsimage to an XML file. 
+Work with EC2, HDFS, python, XML, Xpath
 
 ### a. Write a Python program "invert.py"
 
