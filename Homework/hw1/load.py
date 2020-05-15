@@ -59,7 +59,7 @@ def csv_j(csvfile):
         fd = fd.set_index('Code').to_dict(orient='index')
         dict_change(fd, my_dict1)
         fd1 = json.dumps(my_dict1)
-        url = 'https://inf551-a33ef.firebaseio.com/world/country.json'
+        url = 'https://inf551-#####.firebaseio.com/world/country.json'
         response = requests.put(url, fd1)
         print('country.csv-DONE')
         dict1 = strip_dict(my_dict1)
@@ -76,7 +76,7 @@ def csv_j(csvfile):
         fd = fd.to_dict(orient='index')
         dict_change(fd, my_dict2)
         fd2 = json.dumps(my_dict2)
-        url = 'https://inf551-a33ef.firebaseio.com/world/city.json'
+        url = 'https://inf551-#####.firebaseio.com/world/city.json'
         response = requests.put(url, fd2)
         print('city.csv-DONE')
         dict2 = strip_dict(my_dict2)
@@ -92,7 +92,7 @@ def csv_j(csvfile):
         fd = fd.to_dict(orient='index')
         dict_change(fd, my_dict3)
         fd3 = json.dumps(my_dict3)
-        url = 'https://inf551-a33ef.firebaseio.com/world/countrylanguage.json'
+        url = 'https://inf551-#####.firebaseio.com/world/countrylanguage.json'
         response = requests.put(url, fd3)
         print('countrylanguage-DONE')
         dict3 = strip_dict(my_dict3)
@@ -210,6 +210,6 @@ if __name__ == '__main__':
     new_dict = c_to_l(df3)
     invertIndex = json.dumps(new_dict)
     #print('INVERT INDEX:',invertIndex)
-    url = 'https://inf551-a33ef.firebaseio.com/index.json'
+    url = 'https://inf551-#####.firebaseio.com/index.json'
     response = requests.put(url, invertIndex)
     print('Invert Index-DONE')
