@@ -1,4 +1,8 @@
-Task: 
+# Firebase and JSON
+
+### python, JSON, firebase
+
+## Task: 
 
   a. Write a python program "load.py" 
     
@@ -12,13 +16,13 @@ Task:
     
     Sort results if inputs more than one keyword
  
-Challenge:
+## Challenge:
  
     a. Data cleaning
     
     b. Flexible use of python dictionary
 
-Submission:
+## Submission:
 
     a. python3 load.py country.csv city.csv countrylanguage.csv
   
