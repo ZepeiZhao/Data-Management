@@ -1,4 +1,4 @@
-# Data-Management
+# Foundations of Data-Management
 Informatics Course in USC Applied Data Science
 
 #INF-551
