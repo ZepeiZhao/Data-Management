@@ -29,7 +29,7 @@ The course may be divided into three parts.
 ### [HW5](https://github.com/ZepeiZhao/Data-Management/tree/master/Homework/hw5): Mapreduce and Spark
   MAPREDUCE, SPARK
   
-## [LAB](https://github.com/ZepeiZhao/Data-Management/tree/master/Homework/Lab)
+## [LAB](https://github.com/ZepeiZhao/Data-Management/tree/master/Lab)
 ### LAB1: EC2
 ### LAB2: HDFS
 ### LAB3: MongoDB
