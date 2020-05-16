@@ -17,6 +17,21 @@ The goal of this project is to import data from MySQL to Firebase and develop a 
     c. Sorting result if gets multiply keywords
     d. Allowing users to continuously navigate from returned/current tuples to other tuples through the foreign key relationships
 
+## DEMO
+
+### A. User Interface
+
+<img src = "https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-16%20at%203.52.48%20PM.png" width = "500">
+
+### B. Search and Result
+
+<img src = "https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-16%20at%203.53.26%20PM.png" width = "500">
+
+### C. Navigation
+
+<img src = "https://github.com/ZepeiZhao/img/blob/master/Screen%20Shot%202020-05-16%20at%203.53.41%20PM.png" width = "500">
+
+
 ## Database Selection
 
 ### A. World
